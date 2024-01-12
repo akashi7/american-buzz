@@ -1,0 +1,359 @@
+.headerContainer{
+    min-height:700px;
+    background-size:cover;
+    background-position:center center;
+
+}
+.headerContainer::before{
+    left:0;
+    background:black;
+    min-height:700px;
+    width:100%;
+    position:absolute;
+    content:'';
+    z-index:1;
+    opacity:0.7;
+}
+.headerContainer div{
+    z-index:1000;
+    color:white;
+    padding-left:129px;
+}
+.headerContainer .topic{
+    height:20px;
+    display:flex;
+    align-items:flex-end;
+    margin-top:56px;
+}
+.headerContainer .topic p{
+    min-width: 210px;
+    height: 20px;
+    right: 1101px;
+    top: 208px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.headerContainer .heading{
+  height:200px;
+}
+.headerContainer .heading h1{
+    width: 803px;
+    height: 192px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    text-overflow:ellipsis;
+    
+}
+.headerContainer .authorContainer{
+    height:50px;
+    width: 233px;
+    height: 28px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.headerContainer .authorContainer .author{
+    color: #3D8DFF;
+}
+.headerContainer .descriptionContainer{
+    min-height:50px;
+}
+.headerContainer .descriptionContainer p{
+    width: 599px;
+    height: 56px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.moreContainer button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    width: 169px;
+    height: 51px;
+    background: #3D8DFF;
+    border-radius: 26px;
+    border:1px solid transparent;
+    cursor:pointer;
+    color:white;
+}
+.fPostSection{
+    margin-top:63px;
+}
+.fPostSection .featuredPart{
+   min-height:400px;
+}
+.featuredTitle,.featuredMedia{
+    padding-left:128px;
+}
+.featuredTitle h1{
+    min-width: 218px;
+    height: 48px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+.featuredMedia{
+   margin-top:64px;
+}
+.featuredMedia .img{
+    width: 502px;
+    height: 352px;
+    background-size:cover;
+    background-position:center center;
+}
+.fAuthorContainer{
+    min-width: 195px;
+    height: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4C4C4C;
+    padding-left:128px;
+    padding-top:32px;
+}
+.fAuthorContainer .author{
+    color: #3D8DFF;
+}
+.fdescription{
+    width: 551px;
+    height: 56px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+    padding-left:128px;
+    margin-top:26px;
+}
+.fdescription p{
+    margin-top:16px;
+}
+.fMoreButton{
+    margin-top:72px;
+    margin-left:128px;
+}
+.allPostHeader{
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.allPostHeader span{
+    margin-right:144px;
+    min-width: 58px;
+    height: 28px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #592EA9;
+}
+.allPostHeader span a{
+    text-decoration: none;
+}
+.allPostHeader h1{
+    width: 132px;
+    height: 48px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+.allPostscardHolder{
+    margin-top:22px;
+}
+@media (max-width:500px)
+{
+    .headerContainer{
+        position: relative;
+    }
+    .headerContainer div{
+        z-index:1000;
+        width:100%;
+        color:white;
+        padding-left:0px;
+        padding:00px;
+        height:auto;
+        
+    }
+    .headerContainer .topic{
+        display:none;
+    }
+    .headerContainer .heading{
+      min-height:500px;
+      width:100%;
+      padding:0px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    .headerContainer .heading h1{
+        width:100%;
+        height: 192px;
+        font-family: 'DM Sans';
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        color: #FFFFFF;
+        text-overflow:ellipsis;
+        
+    }
+    .headerContainer .authorContainer{
+        display:flex;
+        width:100%;
+        padding:5px;
+        justify-content:center;
+        height:auto;
+        top:0;
+        margin-top:-15rem;
+    }
+    .headerContainer .authorContainer .author{
+        color: #3D8DFF;
+
+    }
+    .headerContainer .descriptionContainer{
+        display:none;
+    }
+    .moreContainer{
+        display:flex;
+        justify-content:center;
+        
+    }
+    .moreContainer button{
+        margin-top:-10rem;
+    }
+    .fPostSection{
+        margin-top:63px;
+        width:100%;
+        padding:0px;
+        margin-right:0px;
+    }
+    .fPostSection .featuredPart{
+       min-height:400px;
+       width:100%;
+    }
+    .featuredTitle,.featuredMedia{
+        padding-left:0px;
+        width:100%;
+    }
+    .featuredTitle h1{
+        width:100%;
+        text-align: center;
+    }
+    .featuredMedia{
+       margin-top:64px;
+       width:100%;
+       padding:0px;
+    }
+    .featuredMedia .img{
+        width: 100% !important;
+        height: 352px;
+        background-size:cover;
+        background-position:center center;
+    }
+    .fAuthorContainer{
+        min-width:100%;
+        height: 20px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4C4C4C;
+        padding-left:08px;
+        padding-top:32px;
+        text-align:center;
+    }
+    .fAuthorContainer .author{
+        color: #3D8DFF;
+    }
+    .fdescription{
+        width: 100%;
+        height: 56px;
+        padding-left:0px;
+        margin-top:26px;
+        text-align: center;
+        padding:10px;
+    }
+    .fdescription p{
+        margin-top:16px;
+        text-overflow: ellipsis;
+        height:56px;
+    }
+    .fMoreButton{
+        margin-top:0px;
+        margin-left:0px;
+    }
+    .allPostHeader{
+        padding:10px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        margin-top:10rem;
+        width:100%;
+        background-color:#F5F6F7;
+    }
+    .allPostHeader span{
+        margin-right:0px;
+        width:auto;
+        height: 28px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #592EA9;
+        margin-left:10px;
+    }
+    .allPostHeader span a{
+        text-decoration: none;
+    }
+    .allPostHeader h1{
+        width: 132px;
+        height: 48px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -2px;
+        color: #232536;
+        margin-left:20px;
+    }
+    .allPostscardHolder{
+        margin-top:22px;
+    }
+}

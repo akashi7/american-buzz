@@ -1,0 +1,135 @@
+.container{
+    height:112px;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(29, 32, 87, 0.06);
+}
+.logoContainer{
+    height:112px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+.logoContainer img{
+    margin-left:56px;
+}
+.hamburgerMenu{
+    display:none;
+}
+.menuContainer{
+    display:flex;
+    align-items:center;
+    padding-left:58px;
+}
+.menuContainer .menu{
+    height:42px;
+    min-width:100px;
+    display:flex;
+    align-items: center;
+}
+.menuContainer .active{
+    position: relative;
+    color:#3D8DFF;
+    width:100px;
+}
+.menuContainer .active a{
+    color:#3D8DFF;
+}
+.menuContainer .active::after
+{
+    color:#3D8DFF;
+    position:absolute;
+    content: "";
+    min-width: 34px;
+    height: 4px;
+    background: #3D8DFF;
+    border-radius: 8px;
+    bottom:0;
+}
+.menuContainer .active::before
+{
+    color:#3D8DFF;
+    position:absolute;
+    content: "";
+    min-width: 4px;
+    height: 4px;
+    background: #3D8DFF;
+    border-radius: 8px;
+    bottom:0;
+    left:0;
+    margin-left:-10px;
+}
+.menuContainer section a{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color:black;
+    font-family: 'DM Sans', sans-serif;
+}
+.menuContainer section a:active{
+    color:transparent;
+}
+.rightContainer
+{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-right:1rem;
+    
+}
+.socialIcons{
+    width:50%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.rightContainer button{
+    width:150px;
+    height:48px;
+    background-color:#377DFF;
+    color:white;
+    box-shadow: 0px 7px 23px rgba(95, 171, 240, 0.35);
+    border-radius: 26px;
+    padding: 10px 16px;
+    gap: 12px;
+    border:1px solid transparent;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left:2rem;
+    line-height: 21px;
+    cursor:pointer;
+}
+@media (max-width:1200px)
+{
+    
+}
+@media (max-width:500px)
+{
+   .menuContainer{
+      background:red;
+      display:none;
+   }
+   .socialIcons{ 
+    display:none;
+}
+.rightContainer button{
+    display:none;
+}
+.logoContainer{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+.logoContainer img{
+    margin-left:0px;
+}
+.hamburgerMenu{
+    margin-right:20px;
+    display:block;
+}
+}

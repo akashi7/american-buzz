@@ -1,0 +1,645 @@
+.container {
+  min-height: 500px;
+  margin-top: 48px;
+}
+.titleContainer {
+  height: 94px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 94px;
+  color: #323b4b;
+  display: flex;
+  align-items: center;
+  padding-left: 126px;
+}
+.subTitle {
+  min-height: 94px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 125px;
+}
+.subTitle p {
+  width: 481px;
+  height: 78px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #7a879e;
+}
+.serviceICard {
+  min-height: 400px;
+  padding-left: 126px;
+  padding-top: 48px;
+}
+.serviceICard .card {
+  width: 677px;
+  height: 323px;
+  background: rgba(61, 141, 255, 0.19);
+  padding-top: 24px;
+  padding-left: 65px;
+}
+.serviceICard .card .cardHeader {
+  min-width: 346px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+}
+.serviceICard .card .cardHeader .number {
+  width: 48px;
+  height: 77px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 160%;
+  color: rgba(0, 0, 0, 0.22);
+  margin-top: 24px;
+  margin-left: 32px;
+}
+.serviceICard .card .cardHeader .text {
+  width: 298px;
+  height: 77px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 160%;
+  color: #000000;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.serviceICard .card .cardBody {
+  width: auto;
+  height: auto;
+  padding-left: 32px;
+  padding-top: 24px;
+}
+.serviceICard .card .cardBody p {
+  width: 475px;
+  height: 78px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #626d80;
+}
+.serviceIICard .card {
+  width: 100%;
+  height: 323px;
+  background: #f5f6f7;
+  margin-top: 48px;
+}
+.serviceIICard .card:first-child {
+  padding-top: 33px;
+}
+.serviceIICard .card .header {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.serviceIICard .card .number {
+  height: 62px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 62px;
+  color: rgba(0, 0, 0, 0.22);
+  margin-left: 10px;
+}
+.serviceIICard .card .header .headerText {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 160%;
+  color: #000000;
+  margin-left: 10px;
+  width: 60%;
+}
+.serviceIICard .card .text {
+  width: 100%;
+  min-height: 32px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #626d80;
+  margin-left: 10px;
+  padding: 10px;
+  margin-top: 14px;
+}
+.serviceIIICard .card {
+  width: 248px;
+  height: 323px;
+  background: #f5f6f7;
+  margin-top: 48px;
+  margin-right: 125px;
+}
+.serviceIIICard .card:first-child {
+  padding-top: 33px;
+}
+.serviceIIICard .card .number {
+  width: 62px;
+  height: 77px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 160%;
+  color: rgba(0, 0, 0, 0.22);
+  margin-left: 99px;
+}
+.serviceIIICard .card .text {
+  width: 66px;
+  height: 32px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  color: #000000;
+  transform: rotate(-90deg);
+  margin-left: 100px;
+  margin-top: 34px;
+}
+.serviceSectionII {
+  min-height: 367px;
+  padding: 10px;
+}
+.serviceSectionII {
+  padding-top: 56px;
+  display: flex;
+  justify-content: center;
+}
+.serviceSectionII:first-child {
+  padding-left: 134px;
+}
+.serviceSectionII .card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
+  width: 266px;
+  height: 366px;
+  background: #f5f6f7;
+  box-shadow: 9px 14px 23px rgba(31, 30, 58, 0.22);
+  border-radius: 18px;
+  position: relative;
+}
+.serviceSectionII .firstCard {
+  margin-left: 110px;
+}
+.serviceSectionII .middleCard {
+  margin-left: 85.67px;
+}
+.serviceSectionII .lastCard {
+  /* margin-right:133px; */
+  margin-left: 100.67px;
+}
+.serviceSectionII .card img {
+  width: 250px;
+  height: 350px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+.serviceSectionII .card .titleContainers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 8px;
+  position: absolute;
+  width: 98px;
+  height: 30px;
+  left: 141px;
+  top: 16px;
+  background: #ffffff;
+  border-radius: 23px;
+}
+.serviceSectionII .card .titleContainers span {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #357ade;
+}
+.serviceSectionII .card button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 4px;
+  gap: 8px;
+  position: absolute;
+  width: 219px;
+  height: 46px;
+  left: 15px;
+  top: 297px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  border-radius: 23px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.serviceSectionIII,
+.serviceSectionIV,
+.serviceSectionV {
+  min-height: 500px;
+  padding: 5px;
+  display: block;
+  width: 100%;
+}
+.serviceSectionIII img {
+  float: right;
+  width: 759px;
+  height: 449.5px;
+  margin-top: 175px;
+  margin-right: 125px;
+}
+.serviceSectionIII section {
+  margin-top: 210px;
+  margin-left: 126px;
+  float: left;
+}
+.serviceSectionIII .heading {
+  width: 528px;
+  height: 258px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  color: #323b4b;
+}
+.serviceSectionIII .subTitle {
+  width: 543px;
+  min-height: 104px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #7a879e;
+  float: left;
+  margin-top: -4px;
+}
+.serviceSectionIV section {
+  margin-top: 30px;
+  margin-right: 125px;
+  float: right;
+}
+.serviceSectionIV .heading {
+  width: 528px;
+  height: 258px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  color: #323b4b;
+  margin-top: 260.5px;
+}
+.serviceSectionIV .subTitle {
+  width: 543px;
+  min-height: 104px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #7a879e;
+  margin-top: -8;
+}
+.serviceSectionIV img {
+  float: left;
+  width: 639.5px;
+  height: 509.36px;
+  margin-top: 165px;
+  margin-left: 126px;
+}
+.serviceSectionV img {
+  float: right;
+  width: 602px;
+  height: 531px;
+  margin-top: 166px;
+  margin-right: 125px;
+}
+.serviceSectionV section {
+  margin-top: 50px;
+  margin-left: 126px;
+  margin-top: 242px;
+  float: left;
+}
+.serviceSectionV .heading {
+  width: 528px;
+  height: 258px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  color: #323b4b;
+  margin-top: -12px;
+}
+.serviceSectionV .subTitle {
+  width: 543px;
+  min-height: 104px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #7a879e;
+  margin-top: -4px;
+}
+@media (min-width: 100px) and (max-width: 1300px) {
+  .serviceSectionII {
+    row-gap: 10px;
+  }
+
+  .serviceSectionIII img {
+    width: 500px;
+    margin-right: 0px;
+  }
+  .serviceSectionIII section {
+    margin-left: 36px;
+  }
+  .serviceSectionIV section {
+    margin-right: 06px;
+  }
+  .serviceSectionIV img {
+    float: left;
+    width: 500px;
+    height: 509.36px;
+    margin-top: 165px;
+    margin-left: 26px;
+  }
+  .serviceSectionV img {
+    float: right;
+    width: 500px;
+    height: 531px;
+    margin-top: 166px;
+    margin-right: 15px;
+  }
+  .serviceSectionV section {
+    margin-top: 50px;
+    margin-left: 36px;
+    margin-top: 242px;
+    float: left;
+  }
+}
+@media (max-width: 500px) {
+  .serviceICard {
+    min-height: 400px;
+    padding-left: 6px;
+    padding-top: 48px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .serviceICard .card {
+    width: 100%;
+    min-height: 323px;
+    background: rgba(61, 141, 255, 0.19);
+    padding-top: 24px;
+    padding-left: 5px;
+  }
+  .serviceICard .card .cardHeader .number {
+    margin-left: 10px;
+  }
+  .serviceICard .card .cardBody {
+    padding-left: 0px;
+  }
+  .serviceICard .card .cardBody p {
+    margin-left: 0px;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+  }
+  .serviceIICard {
+    display: flex;
+    justify-content: center;
+  }
+  .serviceIIICard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .serviceIIICard .card {
+    margin-right: 0px;
+  }
+  .titleContainer {
+    width: 100%;
+    min-height: 94px;
+    display: flex;
+    justify-content: center;
+    padding-left: 26px;
+    padding: 5px;
+  }
+  .subTitle {
+    min-height: 94px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 0px;
+    padding: 10px;
+    padding-left: 26px;
+  }
+  .subTitle p {
+    width: 100%;
+    padding: 10px;
+    min-height: 78px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #7a879e;
+  }
+  .serviceSectionII {
+    row-gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .serviceSectionII .firstCard,
+  .middleCard,
+  .lastCard {
+    margin-left: 0px;
+  }
+  .serviceSectionII .middleCard,
+  .lastCard {
+    margin-left: 0px;
+  }
+  .serviceSectionII .lastCard {
+    margin-left: 0px;
+  }
+  .serviceSectionIII {
+    padding: 10px;
+    min-height: 400px;
+    margin-top: 0px;
+  }
+  .serviceSectionIII section {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .serviceSectionIII img {
+    width: 80%;
+    height: auto;
+    margin-right: 0px;
+    float: inherit;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .serviceSectionIII .heading {
+    width: auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #323b4b;
+  }
+  .serviceSectionIII .subTitle {
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #7a879e;
+    margin-top: -7rem;
+    padding: 5px;
+  }
+  .serviceSectionIV {
+    padding: 20px;
+    min-height: 400px;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .serviceSectionIV section {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .serviceSectionIV img {
+    width: 80%;
+    height: auto;
+    margin-right: 0px;
+    float: inherit;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .serviceSectionIV .heading {
+    width: auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #323b4b;
+    margin-top: 20px;
+  }
+  .serviceSectionIV .subTitle {
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #7a879e;
+    margin-top: -7rem;
+    padding: 5px;
+    min-height: auto;
+  }
+  .serviceSectionIV {
+    padding: 10px;
+    min-height: 400px;
+    margin-top: 0px;
+  }
+  .serviceSectionV section {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .serviceSectionV img {
+    width: 80%;
+    height: auto;
+    margin-right: 0px;
+    float: inherit;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  .serviceSectionV .heading {
+    width: auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #323b4b;
+  }
+  .serviceSectionV .subTitle {
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #7a879e;
+    margin-top: -7rem;
+    padding: 5px;
+  }
+  .serviceSectionII .card .titleContainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 4px;
+    gap: 8px;
+    position: absolute;
+    width: 98px;
+    height: 30px;
+    left: 141px;
+    top: 16px;
+    background: #ffffff;
+    border-radius: 23px;
+  }
+  .serviceSectionII .card .titleContainers span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #357ade;
+  }
+}

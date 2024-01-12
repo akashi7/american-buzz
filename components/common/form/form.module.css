@@ -1,0 +1,26 @@
+.inputContainer{
+  display:flex;
+  flex-direction:column;
+  min-height:80px;
+}
+.inputContainer div{
+    display:flex;
+    flex-direction:column;
+    padding:5px;
+}
+.inputContainer div input{
+    margin-top:10px;
+    padding:10px;
+    min-height:50px;
+    border-radius:5px;
+    outline:none;
+    border:1px solid rgba(0,0,0,0.19);
+    box-shadow:0px 0px 1px 0px rgba(0,0,0,0.19);
+}
+.textArea{
+    min-height:250px;
+    background:#f5f6f5;
+    outline:none;
+    border:1px solid rgba(0,0,0,0.19);
+    margin-top:10px;
+}

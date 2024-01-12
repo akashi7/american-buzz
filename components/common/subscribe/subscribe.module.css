@@ -1,0 +1,145 @@
+.container{
+    min-height:300px;
+    margin-top:123px;
+    display:flex;
+    align-items:center;
+}
+.innerContainer
+{
+    width:100%;
+    height:161px;
+    height: 161px;
+    filter: drop-shadow(0px 15px 32px rgba(83, 99, 123, 0.2));
+    border-radius: 16px;
+    background: #2DCA8C;
+    margin-left:121px;
+    margin-right:124px;
+    display:flex;
+    position: relative;
+}
+.sectionI{
+    width:50%;
+    height:161px;
+    background-image:url("../../../public/images/ellipse9.png");
+    background-size:100% 161px;
+    clip-path: circle(75%);
+    border-radius:16px 0px 0px 16px;
+}
+.sectionI p{
+    padding:0;
+    margin:0;
+    width: 514px;
+    height: 52px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    margin-left:50px;
+    margin-top:30px;
+    color: #FFFFFF;
+}
+.sectionI input{
+    width: 509px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border:1px solid transparent;
+    margin-left:50px;
+    outline: none;
+    margin-top:16px;
+}
+.sectionI input::placeholder{
+    min-width: 123px;
+    height: 18px;
+    left: 16px;
+    top: 11px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left:16px;
+    text-indent:16px;
+}
+
+.sectionIII{
+    width:43%;
+    height:161px;
+    background-image:url("../../../public/images/ellipse10.png");
+    background-size:100% 161px;
+    clip-path: circle(75%);
+    right:0;
+    position:absolute;
+    border-radius:0px 16px 16px 0px;
+}
+.sectionIII button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 12px;
+    width: 150px;
+    height: 40px;
+    background: #377DFF;
+    border-radius: 26px;
+    z-index:100;
+    margin-left:4rem;
+    position:absolute;
+    left:0;
+    bottom:0;
+    margin-bottom:25px;
+    color:white;
+    margin-left:-25px;  
+    border:1px solid transparent;
+}
+@media (max-width:500px)
+{
+    .container{
+        padding:10px;
+    }
+    .innerContainer{
+        margin-left:10px;
+        margin-right:10px;
+        display:flex;
+        min-height:300px;
+        background-color:white;
+        flex-direction:column;
+    }
+    .sectionI{
+        width:100%;
+        padding:10px;
+        height:auto;
+        background-size:cover;
+        clip-path: circle(100%);
+    }
+    .sectionI p{
+        margin-left:5px;
+        width:100%;
+        padding:5px;
+    }
+    .sectionI input{
+        margin-left:5px;
+        width:90%;
+        margin-top:20px;
+    }
+    .sectionIII{
+        width:100%;
+        min-height:auto;
+        display:flex;
+        height:100px;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        background-image:none;
+    }
+    .sectionIII button{
+        position:absolute;
+        margin-bottom:25px;
+        color:white;
+        margin-left:25%;  
+        border:1px solid transparent;
+    }
+}

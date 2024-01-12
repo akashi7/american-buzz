@@ -1,0 +1,104 @@
+.postContainer{
+    min-height:200px;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.19);
+    background:none;
+}
+.postContainer::before{
+    position:absolute;
+    width:100%;
+    height:100%;
+    content: "";
+    background:black;
+    left:0;
+    top:0;
+    opacity:0.6;
+    border-radius:10px;
+}
+.postContainer .postHeader
+{
+    width:100%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    z-index:1;
+    color:white;
+    padding:10px;
+}
+.author{
+    color: #3D8DFF;
+}
+.postContainer .postBody{
+    height:97px;
+    z-index:1;
+    text-align: center;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    
+}
+.postContainer .postBody p{
+    width:80%;
+    height: 96px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color:white;
+    text-overflow: ellipsis;
+    margin-top:8px;
+    z-index:1;
+
+}
+@media (max-width:500px)
+{
+    .postContainer{
+        min-height:200px;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        padding:10px;
+        margin-top:20px;
+        box-shadow:0px 0px 8px 0px rgba(0,0,0,0.19);
+        margin-left:5%;
+        border-radius:10px;
+    }
+    .postContainer .postHeader
+    {
+        width:100%;
+        height:50px;
+        display:flex;
+        align-items:center;
+        padding:10px;
+    }
+    .author{
+        color: #3D8DFF;
+    }
+    .postContainer .postBody{
+        height:97px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+
+    }
+    .postContainer .postBody p{
+        width:100%;
+        height: 96px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 32px;
+        text-overflow: ellipsis;
+        margin-top:8px
+    
+    }
+}

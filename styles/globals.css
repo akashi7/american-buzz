@@ -1,0 +1,48 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css";
+@import "https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap";
+
+html,body{
+  padding:0;
+  margin:0;
+  height:100%;
+}
+body{
+  overflow-x: hidden;
+}
+*{
+  box-sizing:border-box;
+}
+.ml-10{
+  margin-left:15px;
+}
+p,h1{
+  padding:0;
+  margin:0;
+}
+.container-fluid{
+  padding:0;
+  margin:0;
+}
+.drawer{
+  height:100% !important;
+  overflow-y:auto;
+  position:fixed !important;
+}
+@media (max-width:500px)
+{
+  html,body{
+    padding:0;
+    margin:0;
+    height:100%;
+    overflow-x: hidden;
+  }
+}
+.footerMarginTop{
+  margin-top:167px;
+ }
+ .error{
+  color:red;
+  font-size:14px;
+  margin-left:1rem;
+  opacity:0.5;
+ }
